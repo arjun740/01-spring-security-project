@@ -61,7 +61,7 @@ public class SecurityConfig {
 //    }
     @Bean
     public PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder(); //NoOpPasswordEncoder is a password encoder that performs no encoding at all.
+        return new BCryptPasswordEncoder();
     }
 
 
